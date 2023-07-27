@@ -36,20 +36,15 @@ export const Login = () => {
                                             userId: "uudid",
                                             userName: "kefayati",
                                             fullName: "لیلا کفایتی ",
-                                            thumbnail:'https://img.icons8.com/?size=1x&id=108652&format=png',
+                                            thumbnail: 'https://img.icons8.com/?size=1x&id=108652&format=png',
                                             token: 'gchchghtfy778ujb8iok,nj879i00oljljnk'
                                         }
 
                                         localStorage.setItem("user", JSON.stringify(user))
-
                                         history('/')
-
                                     }
                                     setSubmitting(false);
-                                    // setTimeout(() => {
-                                    //     alert(JSON.stringify(values, null, 2));
-                                    //     setSubmitting(false);
-                                    // }, 400);
+
                                 }}
                             >
                                 {({ isSubmitting }) => (

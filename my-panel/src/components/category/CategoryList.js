@@ -58,12 +58,8 @@ export const CategoryList = () => {
                                         <th scope="row">{item.productId}</th>
                                         <td>{item.categoryName}</td>
                                         <td>{item.unitPrice}ریال</td>
-
-
                                     </tr>
                                 )}
-
-
                             </tbody>
                         </table>
                     </div>

@@ -71,7 +71,7 @@ export const ProductContainer = () => {
 
     return (
         <>
-        <PageTitle    title='لیست محصولات'/>
+        <PageTitle   title='لیست محصولات'/>
             <div className="card">
                 <div className="card-header">مدیریت محصولات</div>
                 <div className="card-body">

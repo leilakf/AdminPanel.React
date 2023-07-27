@@ -14,6 +14,8 @@ import { PageNotFount } from '../../components/page-not-found/PageNotFount';
 import { Login } from '../../components/auth/Login';
 import { CategoryList } from '../../components/category/CategoryList';
 import { UserPost } from '../../components/post/UserPost';
+import { FormWithRef } from '../../sampleForms/FormWithRef';
+import { FetchCrud } from '../../crud/FetchCrud';
 
 export const AdminLayout = () => {
   return (
@@ -33,6 +35,8 @@ export const AdminLayout = () => {
               <Route path='/formdata' Component={FormDataSample} />
               <Route path='/react-hook-form' Component={ReactHookForm} />
               <Route path='/formik-sample' Component={FormikSample} />
+              <Route path='/Form-With-Ref' Component={FormWithRef} />
+              <Route path='/FetchCrud' Component={FetchCrud} />
               <Route path='/login' Component={Login} />
               <Route path="*" Component={PageNotFount} />
             </Routes>

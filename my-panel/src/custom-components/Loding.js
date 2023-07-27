@@ -9,9 +9,6 @@ export default function Loding() {
                   <span class="sr-only">Loading...</span>
                   در حال دریافت اطلاعات...
               </button>
-
-
-
           </>
     </div>
   )

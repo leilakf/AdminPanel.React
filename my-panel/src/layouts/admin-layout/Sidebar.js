@@ -13,7 +13,7 @@ export const Sidebar = () => {
             <div className="sidebar-wrapper">
                 <ul className="nav">
                     <li>
-                        <NavLink  activeClassName="active" className="simple-text logo-normal" to="/">
+                        <NavLink activeClassName="active" className="simple-text logo-normal" to="/">
                             <i className="nc-icon nc-bank"></i>
                             داشبورد
                         </NavLink>
@@ -21,10 +21,22 @@ export const Sidebar = () => {
                     <li>
                         <NavLink activeClassName="active" className="simple-text logo-normal" to="/UserPost">
                             <i className="nc-icon nc-bank"></i>
-                    پست های کاربران
+                            پست های کاربران
                         </NavLink>
                     </li>
                     
+                    <li>
+                        <NavLink activeClassName="active" className="simple-text logo-normal" to="/Form-With-Ref">
+                            <i className="nc-icon nc-bank"></i>
+                            useRef نمونه
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink activeClassName="active" className="simple-text logo-normal" to="/FetchCrud">
+                            <i className="nc-icon nc-bank"></i>
+                          fech sample
+                        </NavLink>
+                    </li>
                     <li>
                         <NavLink activeClassName="active" className="simple-text logo-normal" to="/products">
                             <i className="nc-icon nc-tile-56"></i>

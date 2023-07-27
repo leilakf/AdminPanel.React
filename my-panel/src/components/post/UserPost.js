@@ -30,7 +30,7 @@ export const UserPost = () => {
 
     const onChengeUser = (e) => {
         setIsLoding(true)
-        console.log(e.target.value, "valuee")
+        // console.log(e.target.value, "valuee")
         const userId = e.target.value
         const apiUrl = `https://jsonplaceholder.typicode.com/posts?userId=${userId}`;
         fetch(apiUrl)
